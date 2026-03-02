@@ -23,6 +23,9 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
+      - name: Update submodules to latest version
+        run: bash scripts/update.sh
+
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
