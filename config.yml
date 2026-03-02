@@ -1,0 +1,7 @@
+host: go.humaniza.com.mx
+repositories:
+  - name: AIM
+    vsc: git
+    repo: https://github.com/HumanizaMX/aim
+    branch: master
+    redirect: https://humaniza.com.mx
