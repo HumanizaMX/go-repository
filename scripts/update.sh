@@ -20,7 +20,7 @@ fi
 git add ignis
 git commit -m "chore: update ignis submodule to latest version"
 
-# Push the changes
-git push origin HEAD:main
+# Push the changes to the current branch
+git push
 
 echo "✅ Successfully updated and pushed ignis submodule"
