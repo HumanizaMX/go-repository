@@ -1,7 +1,13 @@
 host: go.humaniza.com.mx
+
 repositories:
   - name: AIM
     vsc: git
-    repo: https://github.com/HumanizaMX/aim
+    repo: https://github.com/HumanizaMX/iam
+    branch: master
+    redirect: https://humaniza.com.mx
+  - name: Secrets Fetcher
+    vsc: git
+    repo: https://github.com/HumanizaMX/secrets-fetcher
     branch: master
     redirect: https://humaniza.com.mx
